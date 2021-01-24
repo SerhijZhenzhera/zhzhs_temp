@@ -24,7 +24,6 @@ def left_join(phrases: tuple) -> str:
     result = temp.replace('right', 'left')
     return result
 
-left_join(("left", "right", "left", "stop"))
 
 if __name__ == '__main__':
     '''
